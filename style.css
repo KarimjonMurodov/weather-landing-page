@@ -47,6 +47,10 @@
     color: #b8c5e9;
 }
 
+.navbar__nav ul li a:hover{
+    color: white;
+}
+
 .navbar__icon i{
     margin: 0 15px;
     font-size: 20px;
@@ -106,6 +110,7 @@
 
 .header__down{
     text-align: center;
+    color: red;
 
 }
 
