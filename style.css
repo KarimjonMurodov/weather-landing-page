@@ -157,21 +157,31 @@
     color: var(--textColor);
 }
 
-
-.perfect__img {
-    background-color: #4566c8;
-    width: 600px;
-    height: 400px;
-
-    position:relative;
-}
-.perfect__img > img{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    /* transform: translate(-50%, -50%); */
-}
-.perfect__img > img:hover{
-   transform:  scaleX(1.3);
+.perfect__section{
+    display: flex;
+    width: 100%;
+    height: 300px;
+    margin-top: 50px;
 }
 
+.perfect__box{
+    display: flex;
+    width: 300px;
+    margin: 15px;
+}
+
+.perfect__box__icon i{
+    font-size: 60px;
+    color: #fa704c;
+    margin: 10px 10px 0 0;
+}
+
+.perfect__box__text h3{
+    text-align: start;
+}
+
+.perfect__box__text p{
+    text-align: start;
+    color: var(--textColor);
+    margin-top: 15px;
+}
