@@ -353,3 +353,51 @@
 .blue-color{
     background-color: #7593c9;
 }
+
+.saying__page{
+    margin-top: 70px;
+}
+
+.saying__page > h3{
+    font-size: 27px;
+    color: var(--titleColor);
+    text-align: center;
+}
+
+.saying__page > p{
+    font-size: 15px;
+    color: var(--textColor);
+    text-align: center;
+    margin-top: 10px;
+}
+
+.saying__box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.saying__text{
+    width: 45%;
+    height: 220px;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.saying__box i{
+    font-size: 40px;
+    color: var(--titleColor);
+}
+
+.saying__text h4{
+    font-size: 20px;
+    font-weight: 300;
+    margin: 15px 0;
+}
+
+.right-icon{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
