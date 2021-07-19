@@ -337,3 +337,19 @@
     margin: 0;
     margin-left: 100px;
 }
+
+.orange-color{
+    background-color: #f2a14f;
+}
+
+.red-color{
+    background-color: #fa6a41;
+}
+
+.fresh-color{
+    background-color: #b8faee;
+}
+
+.blue-color{
+    background-color: #7593c9;
+}
