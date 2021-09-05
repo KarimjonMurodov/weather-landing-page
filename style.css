@@ -7,13 +7,26 @@
 }
 
 @keyframes cloud{
-    0%  {right: 0px;}
-    100%  {right: 100px;}
+    0%  {left: 0px;}
+    /* 50%  {bottom: 50px;} */
+    100%  {left: 200px;}
+}
+
+@keyframes rainy{
+    0%  {left: 0px; transform: rotateX(0deg);}
+    20%  {transform: rotateX(180deg);}
+    100%  {left: 200px;}
+}
+
+.rainy-an{
+    position: relative;
+    animation: rainy 3s infinite alternate;
 }
 
 .animation{
-    animation-name:;
-    animation-duration: 5s;
+    position: relative;
+    animation-name: cloud;
+    animation-duration: 3s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
@@ -512,6 +525,7 @@
     animation-iteration-count: infinite;
     animation-direction: alternate;
     animation-delay: 5s;
+    cursor: pointer;
 }
 
 @keyframes icon{
